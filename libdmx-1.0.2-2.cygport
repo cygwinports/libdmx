@@ -1,0 +1,7 @@
+inherit xorg
+
+PKG_NAMES="${PN} ${PN}1 ${PN}-devel"
+PKG_HINTS="src runtime devel"
+libdmx_CONTENTS=	# empty
+libdmx1_CONTENTS="usr/bin/cygdmx-1.dll usr/share/doc/"
+libdmx_devel_CONTENTS="usr/lib/ usr/share/man/"

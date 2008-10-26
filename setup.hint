@@ -1,4 +1,0 @@
-category: X11
-requires: cygwin libX11 libXext dmxproto
-sdesc: "Xorg DMX library (development)"
-ldesc: "Xorg DMX library"

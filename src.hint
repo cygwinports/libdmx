@@ -1,0 +1,4 @@
+category: _source
+requires: libdmx-devel
+sdesc: "X.Org DMX library (source)"
+ldesc: "X.Org DMX library"

@@ -1,6 +1,0 @@
-inherit xorg
-
-PKG_NAMES="${PN} ${PN}1"
-PKG_HINTS="setup runtime"
-PKG_CONTENTS[0]='--exclude=usr/bin/*.dll usr/'
-PKG_CONTENTS[1]='usr/bin/*.dll'

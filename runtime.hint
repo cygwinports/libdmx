@@ -1,4 +1,5 @@
 category: X11
 requires: cygwin libX11_6 libXext6
-sdesc: "Xorg DMX library (runtime)"
-ldesc: "Xorg DMX library"
+external-source: libdmx
+sdesc: "X.Org DMX library (runtime)"
+ldesc: "X.Org DMX library"

@@ -1,28 +1,27 @@
 libdmx
 ------------------------------------------
-Xorg DMX library
+X.Org DMX library
 
 Runtime requirements:
-  cygwin-1.5.20-1
-  libX11_6-1.0.1-1
-  libXext6-1.0.1-1
+  cygwin-1.5.25-15
+  libX11_6-1.1.5-1
+  libXext6-1.0.4-1
 
 Build requirements:
 (besides corresponding devel packages)
-  cygwin-1.5.20-1
-  autoconf2.5-2.59-2
-  automake1.9-1.9.6-1
-  binutils-20050610-1
-  cygport-0.2.2-1
-  gawk-3.1.5-2
-  gcc-core-3.4.4-1
-  libtool1.5-1.5.22-1
-  make-3.80-1
-  pkg-config-0.20-1
-  sed-4.1.5-1
+  autoconf2.5-2.63-1
+  automake1.9-1.9.6-2
+  binutils-20080624-2
+  cygport-0.4.2-1
+  gawk-3.1.6-1
+  gcc-core-3.4.4-3
+  libtool-2.2.6a-1
+  make-3.81-1
+  pkg-config-0.23a-2
+  sed-4.1.5-2
   dmxproto-2.2.2-1
-  xextproto-7.0.2-1
-  xorg-util-macros-1.0.2-1
+  xextproto-7.0.3-1
+  xorg-util-macros-1.1.6-1
 
 Canonical website:
   http://xorg.freedesktop.org/
@@ -42,18 +41,23 @@ Build instructions:
 This will create:
   /usr/src/libdmx-1.0.2-X-src.tar.bz2
   /usr/src/libdmx-1.0.2-X.tar.bz2
+  /usr/src/libdmx-devel-1.0.2-X.tar.bz2
   /usr/src/libdmx1-1.0.2-X.tar.bz2
 
 -------------------------------------------
 
-Files included in the main package:
+Files included in the binary packages:
 
+(libdmx1)
+  /usr/bin/cygdmx-1.dll
+  /usr/share/doc/libdmx-1.0.2/COPYING
+  /usr/share/doc/libdmx-1.0.2/ChangeLog
+
+(libdmx-devel)
+  /usr/lib/libdmx.a
   /usr/lib/libdmx.dll.a
   /usr/lib/libdmx.la
   /usr/lib/pkgconfig/dmx.pc
-  /usr/share/doc/Cygwin/libdmx-1.0.2.README
-  /usr/share/doc/libdmx-1.0.2/COPYING
-  /usr/share/doc/libdmx-1.0.2/ChangeLog
   /usr/share/man/man3/DMX.3.gz
   /usr/share/man/man3/DMXAddInput.3.gz
   /usr/share/man/man3/DMXAddScreen.3.gz
@@ -72,13 +76,12 @@ Files included in the main package:
   /usr/share/man/man3/DMXRemoveScreen.3.gz
   /usr/share/man/man3/DMXSync.3.gz
 
-Files included in the runtime package:
-
-  /usr/bin/cygdmx-1.dll
-
 ------------------
 
 Port Notes:
+
+----- version 1.0.2-2 -----
+Rebuilt.
 
 ----- version 1.0.2-1 -----
 X11R7.1 version bump.
