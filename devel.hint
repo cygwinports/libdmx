@@ -1,5 +1,5 @@
 category: X11
-requires: cygwin libX11-devel libXext-devel dmxproto libdmx1
+requires: libX11-devel libXext-devel dmxproto libdmx1
 external-source: libdmx
 sdesc: "X.Org DMX library (development)"
 ldesc: "X.Org DMX library"
