@@ -1,12 +1,12 @@
 inherit xorg
 
 NAME="libdmx"
-VERSION=1.1.2
+VERSION=1.1.3
 RELEASE=1
 CATEGORY="X11"
 SUMMARY="X.Org Distributed Multihead X library"
 
-PKG_NAMES="${PN}1 ${PN}-devel"
+PKG_NAMES="${NAME}1 ${NAME}-devel"
 libdmx1_SUMMARY="${SUMMARY} (runtime)"
 libdmx1_CONTENTS="usr/bin/cygdmx-1.dll usr/share/doc/"
 libdmx_devel_SUMMARY="${SUMMARY} (development)"
